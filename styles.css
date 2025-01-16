@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Work Sans", serif ;
+}
+header {
+    width: 100%;
+    background-color: #ff900e1a;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+nav {
+    width: 90%;
+   
+    padding: 10px;
+    margin: 0 auto;
+    /* position: fixed; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+.heroCtn, nav {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.heroCtn {
+    /* padding: 20px; */
+    padding: 10% 20px  3% 20px;
+    gap: 40px;
+}
+
+.heroContent {
+    width: 70%;
+    text-align: center;
+    /* flex-direction: column; */
+}
+
+nav> ul, nav , .heroCtn {
+    display: flex;
+    align-items: center;
+}
+.heroCtn {
+    flex-direction: column;
+    /* justify-content: center; */
+}
+nav {
+    justify-content: space-between;
+}
+
+nav > ul {
+    gap:  0.8rem;
+}
+nav > ul > li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.heroTitle {
+    font-size: 4rem;
+    font-weight: 800;
+}
+.my-20 {
+    margin: 20px 0;
+}
+.paragraph {
+    color: #727272;
+    font-size: 0.9rem;
+}
+.containedBtn {
+    background-color: #ff900e;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
